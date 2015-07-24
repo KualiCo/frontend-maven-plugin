@@ -9,7 +9,7 @@
 
     <groupId>co.kuali</groupId>
     <artifactId>frontend-plugins</artifactId>
-    <version>0.0.25.1507.01-SNAPSHOT</version>
+    <version>0.0.25.1507.02-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
