@@ -12,7 +12,7 @@
 
     <name>Maven Frontend Plugin</name>
     <prerequisites>
-        <maven>3.1.0</maven>
+        <maven>${require.maven.version}</maven>
     </prerequisites>
 
     <description>
@@ -60,7 +60,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-plugin-plugin</artifactId>
-                <version>3.2</version>
                 <configuration>
                     <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
                 </configuration>
@@ -82,7 +81,6 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>mrm-maven-plugin</artifactId>
-                <version>1.0-beta-2</version>
                 <executions>
                     <execution>
                         <goals>
@@ -98,8 +96,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-invoker-plugin</artifactId>
-                <version>1.8</version>
-
                 <configuration>
                     <projectsDirectory>src/it</projectsDirectory>
                     <cloneProjectsTo>${project.build.directory}/it</cloneProjectsTo>
